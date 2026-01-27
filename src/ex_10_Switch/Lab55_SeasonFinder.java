@@ -10,7 +10,7 @@ public class Lab55_SeasonFinder {
 
 
         Scanner SC = new Scanner(System.in);
-        out.println("Enter the Month:");
+        System.out.println("Enter the Month:");
         String month = SC.next();
         month = month.toLowerCase();
 
