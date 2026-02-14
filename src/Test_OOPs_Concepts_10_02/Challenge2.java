@@ -4,6 +4,7 @@ public class Challenge2 {
     public static void main(String[] args) {
         Student S1 = new Student("Alex", 4,'A');
         S1.DisplayInfo();
+
     }
 
     static class Student{
@@ -23,9 +24,9 @@ public class Challenge2 {
 
         public void DisplayInfo()
         {
-            System.out.println(name);
-            System.out.println(rollno);
-            System.out.println(section);
+            System.out.println("Student: " +name);
+            System.out.println("Roll No.: " +rollno);
+            System.out.println("Section: " +section);
         }
 
     }
